@@ -21,7 +21,7 @@ export class TodosService {
     let subject = new Subject<TodoItem[]>();
     setTimeout(() => {
       subject.next(this.items);
-    }, 1000);
+    }, 0);
     return subject;
   }
 

@@ -8,7 +8,7 @@ import { TodoItem } from '../types';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  todos: TodoItem[];
+  todos: TodoItem[] = [];
 
   constructor(private todoService: TodosService) { }
 

@@ -120,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "nativescript-todo"
+    }
+  },
+  "defaultProject": "nativescript-todo",
+  "cli": {
+    "defaultCollection": "@nativescript/schematics"
+  }
 }
